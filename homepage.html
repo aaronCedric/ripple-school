@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom-style.css">
+    <title>Ripple School of Design</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a href="homepage.html" class="pl-3 py-3">
+      <img src="img/cover-logo-red.png" alt="school-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link anchor-color" href="explore.html">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link anchor-color" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link anchor-color" href="gallery.html">Gallery</a>
+        </li>
+        <form class="form-inline mt-2 mt-md-0">
+          <button class="btn" type="button">
+            <a href="contact.html" class="navlink anchor-color">Contact</a>
+          </button>
+        </form>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="homePage">
+    <!-- Home Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide" src="img/home-pic-01.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="img/home-pic-02.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="img/home-pic-03.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="img/home-pic-04.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide" src="img/home-pic-05.jpg" alt="Fifth slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>    
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-5 pl-md-3">
+      <div class="ml-md-5 mr-md-3 overflow-hidden environment-head">
+        <div class="environment-item">
+          <img src="img/home-pic-school.jpg" alt="school-pic-image" class="rounded">
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+      <div class="mr-md-3 pt-1 px-3 pt-md-1 px-md-5 overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class="display-5"><span class="text-decor">Tour our campus!</span></h2>
+          <p class="lead">We are proud to present to you our eco-friendly, and beautiful campus! Explore the campus and learn how student's life is, in Ripple School of Design.</p>
+          <p class="lead">
+            <a href="explore.html" class="btn btn-lg btn-danger">Explore Now!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="thumbnail-container m-md-5">
+      <div class="row my-md-5 pl-md-3">
+        <!-- Thumbnail #1 -->
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start col-md-8">
+              <h1 class="display-4">Our courses</h1>
+              <p class="card-text mb-3">Learn more about our courses and know what to expect in our lessons. This will be a 1 year focus design course. This will push you to your limits for you to be a professional concept artist</p>
+              <p class="lead mt-md-3">
+                <a href="courses.html" class="btn btn-lg btn-danger">Learn More!</a>
+              </p>
+            </div>
+            <div class="col-md img-thumb">
+              <img class="w-100 h-100 d-none d-lg-block" src="img/home-course.jpg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+        <!-- Thumbnail #2 -->          
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start col-md-8">
+              <h1 class="display-4">Student Gallery</h1>
+              <p class="card-text mb-3">Browse on our student's work and see how they do the concept art and design. You can also see our alumni's before and after design when they graduated, and some of their work now.</p>
+              <p class="lead mt-md-3">
+                <a href="gallery.html" class="btn btn-lg btn-danger">Check It Out!</a>
+              </p>
+            </div>
+            <div class="col-md img-thumb">
+              <img class="w-100 h-100 d-none d-lg-block" src="img/home-gallery.jpg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="overflow-hidden position-relative text-center contact-bg mb-md-5">
+      <div class="p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal"><span class="text-decor">Contact Us</span></h1>
+        <p class="lead font-weight-normal">Message us through email or in this website. We will do what we can to assist you on your journey to become a professional concept designer.</p>
+        <p class="lead mt-md-5">
+            <a href="contact.html" class="btn btn-lg btn-danger">Keep in touch!</a>
+        </p>
+        <h1 class="display-4 font-weight-normal mt-md-5"><span class="text-decor">Check Out Our Social Media</span></h1>
+        <p class="lead font-weight-normal">We post news and information in our social media sites. Keep updated!</p>
+        <div class="my-md-5 p-md-5 text-center customIcons-contact rounded">
+          <a href="#" class="fontIcons">
+            <i class="fab fa-facebook-square fa-3x p-2"></i>        
+          </a>
+          <a href="#" class="fontIcons">
+            <i class="fab fa-twitter fa-3x p-2"></i>        
+          </a>
+          <a href="#" class="fontIcons">
+            <i class="fab fa-pinterest fa-3x p-2"></i>        
+          </a>
+          <a href="#" class="fontIcons">
+            <i class="fab fa-instagram fa-3x p-2"></i>        
+          </a>
+          <a href="#" class="fontIcons">
+            <i class="fab fa-google-plus-square fa-3x p-2"></i>        
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+<footer class="footer">
+  <div class="row">
+    <div class="col-md-3 my-5 text-left pl-5">
+      <a href="homepage.html">
+        <img src="img/cover-logo-red.png" alt="school-logo">
+      </a>
+      <p class="lead pt-5">Ripple School of design</p>
+      <p class="lead">8900 US-14, Crystal Lake</p>
+      <p class="lead">Illinois 60012</p>
+      <p class="lead pt-4">TEL:935-432-3219</p>
+      <p class="lead">FAX: 935-432-1254</p>
+      <p class="lead">EMAIL: contact@rippleschool.com</p>
+    </div>
+    <div class="col-md-3 my-5 text-left">
+      <nav>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link anchor-color" href="explore.html">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-color" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-color" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anchor-color" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>      
+    </div>
+    <div class="col-md-3 my-5 text-left pl-5">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Admission</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Admission Policies</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Campus</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Alumni</a>
+        </li>        
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Application Intl.</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Application Local</a>
+        </li>
+      </ul>      
+    </div>
+    <div class="col-md-3 my-5 text-center customIcons">
+      <a href="#" class="fontIcons">
+        <i class="fab fa-facebook-square fa-3x p-2"></i>        
+      </a>
+      <a href="#" class="fontIcons">
+        <i class="fab fa-twitter fa-3x p-2"></i>        
+      </a>
+      <a href="#" class="fontIcons">
+        <i class="fab fa-pinterest fa-3x p-2"></i>        
+      </a>
+      <a href="#" class="fontIcons">
+        <i class="fab fa-instagram fa-3x p-2"></i>        
+      </a>
+      <a href="#" class="fontIcons">
+        <i class="fab fa-google-plus-square fa-3x p-2"></i>        
+      </a>
+    </div>
+
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+
+$raleway: 'Raleway';
+$roboto: 'Roboto Slab';
+$active: #e83a30;
+$fColor: #e2e2e2;
+$cWhite: #fff;
+$bgColor: #3e3e3e;
+
+@mixin easeOut() {
+    transition: .2s all ease-out;
+}

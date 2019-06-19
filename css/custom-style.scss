@@ -1,0 +1,164 @@
+@import 'config';
+
+body {
+    overflow-x: hidden;
+    font-size: 1.2rem;
+    padding-top: 4.8em;
+    font-family: $roboto;
+    h1, h2, h3, h4, h5, a {font-family: $raleway;}
+}
+
+.text-decor {color: $active;}
+.overflow-hidden {overflow: hidden;}
+
+// Cover page masthead
+.masthead {.row.inner {.nav-link {z-index: 100;}}}
+.cover-heading {color:$active;}
+.btn-danger {background-color: $active;}
+
+// Navigation Style
+.navbar {
+    background-color: lighten($bgColor, 10);
+    &-toggler {
+        background-color: $active;
+        border-color: $active;
+    }
+    &-nav {
+        text-transform: uppercase;
+        font-weight: 600;
+        .nav-item {
+            // Link style
+            .anchor-color {
+                color: $fColor;
+                padding: 1.2em 2em;
+            }
+            // Hover style
+            .anchor-color:hover {color: $cWhite;}
+        }
+        // Active link style
+        li.nav-item.active > a.nav-link {color: $active;}
+    }
+    // Button style in nav
+    .btn {
+        text-transform: uppercase;
+        padding: 1.2em 2em;
+        background-color: $active;
+        border-color: $active;
+        color: $fColor;
+        a {
+            color: $fColor;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+    .btn:hover {background-color: lighten($active, 10);}
+}
+
+// Home Page
+.col-md.img-thumb {padding-right: 0;}
+.contact-bg {background-color: $fColor;}
+.customIcons-contact {background-color: $bgColor;}
+
+// About Page
+.about-head {
+    height: 38rem;
+    .about-item > img {
+        min-width: 100%;
+        height: 38rem;
+    }
+}
+
+// Courses Page
+.card-body {h1 {color: $active;}}
+.btn-courses {font-size: 1.5rem;}
+.for-bg-card {background-color: $fColor;}
+.cover-head {
+    background: url(../img/course-headline.jpg) no-repeat;
+    background-size: cover;
+    h1.display-4.font-weight-normal {color: lighten($active, 6);}
+    p.lead.font-weight-normal {color: lighten($fColor, 10);}
+}
+
+// Gallery Page
+.carousel {margin-bottom: 4rem;}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 43rem;
+    background-color: #777;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 43rem;
+}
+
+.environment-head {
+    height: 30rem;
+    .environment-item > img {
+        min-width: 100%;
+        height: 30rem;
+    }
+}
+
+// Contact Page Style
+.headlineCustom {
+    text-align: center;
+    color: $bgColor;
+    .lead {font-size: 1.5rem;}
+}
+
+.formCustom {text-align: left;}
+
+input[type=text] {
+    background-color: $cWhite;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid $bgColor;
+    text-transform: uppercase;
+}
+  
+textarea {
+    background-color: $cWhite;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid $bgColor;
+    text-transform: uppercase;
+}
+
+.btn-send {
+    background-color: $active;
+    border: none;
+    color: $fColor;
+    float: right;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section-2 {
+    margin-top: 4em;
+    background-color: lighten($bgColor, 60);
+    border-top: 1px solid $bgColor;
+}
+
+.fontIcons {
+    i {color: $cWhite;}
+    i:hover {
+        color: $active;
+        @include easeOut;
+    }
+}
+
+// Footer
+.footer {
+    background-color: $bgColor;
+    .row {.col-md-3 {.lead {color: $cWhite;}}}
+}
+
+@import 'media';

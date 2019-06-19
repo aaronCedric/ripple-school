@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    // Navigation
+    #navbarCollapse {
+        padding: 27px 0px 27px 1em;
+        text-align: center;
+        .navbar-nav {.btn {margin: auto;}}
+    }
+    // Footer
+    .footer {padding: 2rem 2rem;}
+
+    // Home Page
+    
+    // Courses Page
+    .cover-head {padding: 2rem 1.2rem;}
+
+    // Carousel Page
+    .carousel-item {
+        height: 25rem;
+        background-color: #777;
+    }
+
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: 25rem;
+    }
+}
