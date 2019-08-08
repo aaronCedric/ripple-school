@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="row">
     <div class="col-md-3 my-5 text-left pl-5">
-      <a href="homepage.html">
+      <a href="index.html">
         <img src="img/cover-logo-red.png" alt="school-logo">
       </a>
       <p class="lead pt-5">Ripple School of design</p>
