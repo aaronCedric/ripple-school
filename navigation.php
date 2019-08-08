@@ -1,5 +1,5 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <a href="homepage.html" class="pl-3 py-3">
+    <a href="index.html" class="pl-3 py-3">
       <img src="img/cover-logo.png" alt="school-logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
