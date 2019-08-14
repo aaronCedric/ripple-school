@@ -4,4 +4,4 @@ I used and practiced bootstrap to style this website.
 Also tried some basic php codes.  
 
 Link: https://aaroncedric.github.io/ripple-school/  
-Images :copyright: Feng Zhu Design
+Images &copy FZD School of Design
